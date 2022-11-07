@@ -91,7 +91,7 @@ jobs:
         if: runner.os == 'macOS'
         run: |
           brew install sdl2
-          ls /opt/local/
+          brew --prefix sdl2
 
       # temp workaround, there is a bug in xcode linker 14.0.1; as of now, 14.1 is in beta
 #      - name: Setup Xcode version
