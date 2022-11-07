@@ -92,6 +92,7 @@ jobs:
         run: |
           brew install sdl2
           brew --prefix sdl2
+          ls /usr/local/opt/sdl2
 
       # temp workaround, there is a bug in xcode linker 14.0.1; as of now, 14.1 is in beta
 #      - name: Setup Xcode version
